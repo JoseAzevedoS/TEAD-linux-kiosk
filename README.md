@@ -30,6 +30,7 @@ O **TEAD** propõe uma solução sustentável e econômica ao aproveitar TV Boxe
 pcbox-kiosk-linux/
 
 README.md
+
 docs/
   introducao.md
   metodologia.md
