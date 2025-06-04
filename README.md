@@ -28,25 +28,25 @@ O **TEAD** propõe uma solução sustentável e econômica ao aproveitar TV Boxe
 
 ## 📁 Estrutura do Projeto
 pcbox-kiosk-linux/
-├── README.md
-├── docs/
-│   ├── introducao.md
-│   ├── metodologia.md
-│   ├── resultados.md
-│   ├── consideracoes-finais.md
-│   └── imagens/
-│       └── foto-terminal-hall.jpg
-├── scripts/
-│   ├── install_openbox_firefox.sh
-│   ├── setup_kiosk_user.sh
-│   ├── refresh_navegador.sh
-│   └── agendamento_desligamento_ligamento.sh
-├── configs/
-│   ├── lightdm.conf
-│   ├── .xsession
-│   └── custom.desktop
-├── LICENSE
-└── .gitignore
+README.md
+docs/
+  introducao.md
+  metodologia.md
+  resultados.md
+  consideracoes-finais.md
+  imagens/
+      foto-terminal-hall.jpg
+scripts/
+  install_openbox_firefox.sh
+  setup_kiosk_user.sh
+  refresh_navegador.sh
+  agendamento_desligamento_ligamento.sh
+configs/
+  lightdm.conf
+  .xsession
+  custom.desktop
+  LICENSE
+  .gitignore
 
 ---
 
