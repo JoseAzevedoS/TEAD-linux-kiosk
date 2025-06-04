@@ -42,7 +42,7 @@ O **TEAD** propõe uma solução sustentável e econômica ao aproveitar TV Boxe
 * Armbian instalado (via SD ou eMMC)
 * Acesso root
 * Internet para atualizações e testes
-* Pacotes: `openbox`, `firefox-esr`, `xdotool`
+* Pacotes: `openbox`, `firefox-esr`
 
 ---
 
