@@ -28,11 +28,15 @@ O **TEAD** propõe uma solução sustentável e econômica ao aproveitar TV Boxe
 
 ## 🚀 Como Usar
 
-1. Instale o Armbian no seu TV Box
-2. Execute o script `setup_kiosk_user.sh` para criar o ambiente
-3. Configure a URL desejada no arquivo `.xsession`
-4. Use `agendamento_desligamento_ligamento.sh` para definir o horário de operação
-5. Verifique se o navegador está abrindo em modo kiosk com a página correta
+1. Instale o Armbian no TV Box com auxílio de um cartão SD ou eMMC
+2.Crie o usuário kiosk e habilite o login automático via `lightdm.conf`
+3.Crie a sessão personalizada custom.desktop no diretório `/usr/share/xsessions/`
+4.Instale e configure o Openbox como gerenciador de janelas
+5.No diretório do usuário kiosk, crie o arquivo `.xsession` com os comandos para:
+  Iniciar o Openbox
+  Abrir o Firefox ESR em modo kiosk na URL desejada
+  Adicionar o script de atualização da página a cada 1 hora (com `sleep` + xdotool)
+6.Configure o agendamento de desligamento com `cron`
 
 ---
 
@@ -63,11 +67,6 @@ O **TEAD** propõe uma solução sustentável e econômica ao aproveitar TV Boxe
 * Curso Técnico em Informática integrado ao Ensino Médio
 * Período: **2025.1**
 
----
-
-## 📄 Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais detalhes.
 
 ---
 
