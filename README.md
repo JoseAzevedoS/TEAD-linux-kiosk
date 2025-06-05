@@ -48,7 +48,7 @@ O **TEAD** propõe uma solução sustentável e econômica ao aproveitar TV Boxe
 
 ## 📸 Imagem do Projeto
 
-![Foto do Terminal no Hall](imagens/IMG_TEAD_HALL.jpg)
+![Foto do Terminal no Hall](TEAD-linux-kiosk/imagens/IMG_TEAD_HALL.jpg)
 
 > 📍 Local: Hall principal do campus – Terminal de cadastro de cartões
 
