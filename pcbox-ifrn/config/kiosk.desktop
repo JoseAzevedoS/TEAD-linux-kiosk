@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=chromium --kiosk https://ssc.geatic.ifrn.edu.br/cadastro
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Kiosk Mode
+Comment=Start Chromium in kiosk mode
