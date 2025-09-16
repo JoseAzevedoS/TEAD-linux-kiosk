@@ -1,5 +1,3 @@
-Aqui está um modelo de **README.md** bem estruturado para o seu projeto PCBOX, já organizado em seções claras para documentação no GitHub:
-
 ---
 
 # PCBOX – IFRN Campus SGA
