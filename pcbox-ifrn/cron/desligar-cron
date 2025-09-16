@@ -1,0 +1,2 @@
+# Desligar todos os dias às 22h
+0 22 * * * /home/pcbox/desligar.sh
